@@ -1,0 +1,24 @@
+# Variables d'environnement
+.env
+
+# Environnement virtuel Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Base ChromaDB (volumineuse, régénérable depuis le document source)
+chroma_db/
+
+# Cache des modèles Hugging Face (plusieurs centaines de MB, inutile sur GitHub)
+# Ils se retéléchargent automatiquement depuis HuggingFace
+.cache/
+~/.cache/huggingface/
+
+# Fichiers uploadés (données potentiellement sensibles)
+data/*.pdf
+data/*.txt
+
+# Fichiers de l'OS
+.DS_Store
+Thumbs.db
